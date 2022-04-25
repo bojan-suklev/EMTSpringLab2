@@ -13,7 +13,7 @@ import java.awt.print.Book;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "https://emtlab2backendspring.herokuapp.com/")
+@CrossOrigin(origins = "https://emtlab2frontendreact.herokuapp.com")
 @RequestMapping("/api/books")
 public class BooksRestController {
     private final BooksService booksService;
